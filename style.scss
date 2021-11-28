@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+            z-index: 999;
+            background: none;
+    .row{
+        .top-menu{
+            margin-top: 15px;
+             li{
+                 list-style: none;
+                 a{
+                     text-decoration: none;
+                     color:white;
+                     float: left;
+                     margin-right: 20px;
+                     font-weight: 100px;
+                 }
+             }
+        }
+        .social-media{
+            margin-left: 280px;
+            margin-bottom: 10px;
+            li{
+                list-style: none;
+                a{
+                    color: white;
+                    float: left;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+.bottom-intro{
+    img{
+        position: relative;
+        width: 100%;
+        top: 0;
+        height: 700px;
+    }
+}
+.polo-navbar{
+    position: absolute;
+        z-index: 999;
+        margin-top: 80px;
+        margin-left: 60px;
+    .logo{
+        h3{
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 40px;
+            }
+        }
+        
+    }
+    .navbar{
+        margin-top: -55px;
+        margin-left: 500px;
+        background: none;
+         .navbar-nav {
+            .nav-link {
+               color: white;
+         }
+        
+    }
+}
+}
+.text{
+    position: absolute;
+    z-index: 999;
+    margin-top: 200px;
+    margin-left: 45px;
+    h3{
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    h1{
+        color: white;
+        width: 200px;
+        font-size: 105px;
+        font-weight: bold;
+    }
+}
+.input{
+    position: absolute;
+    z-index: 999;
+    margin-top: 200px;
+    margin-left: 700px;
+    border: 2px solid gray;
+    padding: 50px;
+    width: 550px;
+    height: 350px;
+    background:none;
+    #checkin{
+        width: 30%;
+    }
+    #checkout{
+        width: 30%;
+    }
+    label{
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+    }
+}
+main{
+    .welcome{
+        h1{
+            color: black;
+            font-weight: bold;
+            margin-left: 300px;
+            margin-right: 175px;
+            margin-top: 30px;
+            font-size: 60px;
+            border-bottom: 0.5px solid rgb(197, 194, 194);
+        }
+        p{
+            color:rgb(82, 81, 81);
+            font-weight: bold; 
+            padding: 80px;
+            border-bottom: 0.2px solid gray;
+        }
+    }
+    .restaurant{
+        margin-left: 50px;
+        width: 20%;
+        margin-top: 30px;
+    }
+    .cocktail{
+        margin-left: 25px;
+        width: 20%;
+        margin-top: 30px;
+    }
+    .plane{
+        margin-left: 25px;
+        width: 20%;
+        margin-top: 30px;
+    }
+    .star{
+        width: 20%;
+        margin-right: 50px;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+}
+.roww{
+    #hotel-room{
+        margin-left: 400px;
+        margin-top: 100px;
+        font-size: 70px;
+        font-weight: bold;
+        display: block;
+    }
+    #polo-text{
+        display: block;
+        color: gray;
+        margin: 20px 120px 20px 70px;
+    }
+}
+
+.rooms{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.rooms2{
+    margin-left: 80px;
+    margin-top: 300px;
+}
+iframe{
+    margin-top: 1300px;
+    width: 100%;
+}
+.card{
+    .footer{
+        p{
+            margin-top: 280px;
+            margin-left: 300px;
+        }
+    }
+}
